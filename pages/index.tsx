@@ -47,7 +47,6 @@ const Home = ({
   artInstallations,
   socials,
 }: Props) => {
-  console.log("categories", categories);
   return (
     <div className="bg-[#5c8055] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-rounded scrollbar-thumb-[#fce9a9]/80">
       <Head>

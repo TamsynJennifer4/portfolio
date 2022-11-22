@@ -10,7 +10,6 @@ type Props = {
 };
 
 function Hero({ pageInfo, about }: Props) {
-  console.log(pageInfo.inspirationalQuote);
   return (
     <div className="h-screen flex flex-col space-y-8 text-center">
       <h1 className="text-3xl font-sans font-bold uppercase text-[#fceed9] m-10 mt-20 tracking-[18px]">
